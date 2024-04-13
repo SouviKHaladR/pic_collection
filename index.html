@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
    <body>
+   
     <main>
         <ul class='slider'>
           <li class='item' style="background-image: url('https://raw.githubusercontent.com/s0uvikhaldar/pic_collection/master/DSC0665.jpg')">
@@ -48,7 +49,11 @@
               <button>SOUVIK</button>
             </div>
           </li>
-        
+          <div id="audioPlayer">
+            <audio id="myAudio" controls autoplay>
+                <source src="gulabi.mp3" type="audio/mpeg"/>
+            </audio>
+        </div>
           
         </ul>
         <nav class='nav'>
@@ -57,14 +62,11 @@
         </nav>
         
       </main>
-      <div id="audioPlayer">
-        <audio id="myAudio" controls autoplay>
-            <source src="Gulabi.mp3" type="audio/mpeg"/>
-        </audio>
-    </div>
+      
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       <!-- partial -->
         <script  src="script.js"></script>
 </body>
 </html>
+
