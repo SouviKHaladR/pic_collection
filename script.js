@@ -6,3 +6,8 @@ function activate(e) {
   e.target.matches('.prev') && slider.append(items[items.ngth -1]);
 }
 document.addEventListener('click',activate,false);
+
+window.onload=function(){
+  const audioElement=document.getElementById("myAudio");
+  audioElement.play();
+};
